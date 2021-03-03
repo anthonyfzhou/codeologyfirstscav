@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/codeologyfirstscav/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/codeologyfirstscav/static/js/main.dd97d798.chunk.js",
-    "main.js.map": "/codeologyfirstscav/static/js/main.dd97d798.chunk.js.map",
-    "runtime-main.js": "/codeologyfirstscav/static/js/runtime-main.19fd718a.js",
-    "runtime-main.js.map": "/codeologyfirstscav/static/js/runtime-main.19fd718a.js.map",
-    "static/js/2.a04cf1ab.chunk.js": "/codeologyfirstscav/static/js/2.a04cf1ab.chunk.js",
-    "static/js/2.a04cf1ab.chunk.js.map": "/codeologyfirstscav/static/js/2.a04cf1ab.chunk.js.map",
-    "static/js/3.01036af8.chunk.js": "/codeologyfirstscav/static/js/3.01036af8.chunk.js",
-    "static/js/3.01036af8.chunk.js.map": "/codeologyfirstscav/static/js/3.01036af8.chunk.js.map",
+    "main.css": "/codeologyfirstscav/static/css/main.f3a80d42.chunk.css",
+    "main.js": "/codeologyfirstscav/static/js/main.014ee9f1.chunk.js",
+    "main.js.map": "/codeologyfirstscav/static/js/main.014ee9f1.chunk.js.map",
+    "runtime-main.js": "/codeologyfirstscav/static/js/runtime-main.041594d9.js",
+    "runtime-main.js.map": "/codeologyfirstscav/static/js/runtime-main.041594d9.js.map",
+    "static/js/2.7013b89e.chunk.js": "/codeologyfirstscav/static/js/2.7013b89e.chunk.js",
+    "static/js/2.7013b89e.chunk.js.map": "/codeologyfirstscav/static/js/2.7013b89e.chunk.js.map",
+    "static/js/3.16fe9592.chunk.js": "/codeologyfirstscav/static/js/3.16fe9592.chunk.js",
+    "static/js/3.16fe9592.chunk.js.map": "/codeologyfirstscav/static/js/3.16fe9592.chunk.js.map",
     "index.html": "/codeologyfirstscav/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/codeologyfirstscav/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.a04cf1ab.chunk.js.LICENSE.txt": "/codeologyfirstscav/static/js/2.a04cf1ab.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/codeologyfirstscav/static/media/logo.6ce24c58.svg"
+    "static/css/main.f3a80d42.chunk.css.map": "/codeologyfirstscav/static/css/main.f3a80d42.chunk.css.map",
+    "static/js/2.7013b89e.chunk.js.LICENSE.txt": "/codeologyfirstscav/static/js/2.7013b89e.chunk.js.LICENSE.txt",
+    "static/media/chowder.jpg": "/codeologyfirstscav/static/media/chowder.9015b219.jpg",
+    "static/media/horse.jpg": "/codeologyfirstscav/static/media/horse.33c24792.jpg",
+    "static/media/logo.6ce24c58.svg": "/codeologyfirstscav/static/media/logo.6ce24c58.svg",
+    "static/media/thepasswordisalbatross.jpg": "/codeologyfirstscav/static/media/thepasswordisalbatross.4cc1fa89.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19fd718a.js",
-    "static/js/2.a04cf1ab.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.dd97d798.chunk.js"
+    "static/js/runtime-main.041594d9.js",
+    "static/js/2.7013b89e.chunk.js",
+    "static/css/main.f3a80d42.chunk.css",
+    "static/js/main.014ee9f1.chunk.js"
   ]
 }
