@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
 import './Textbox.css';
-const prompts = ["prompt1",
-				"prompt2",
-				"prompt3",
-				"prompt4",
-				"prompt5"];
+const prompts = ["hey so I may have gotten a little carried away with this",
+				"but here we are so you better immerse yourself in the story experience",
+				"so just, uhhhh, go along with it!!",
+				"you have been kidnapped by the codeology officer team for high treason",
+				"something along the lines of slandering our mascot? idk it was a kangaroo court",
+				"in any case, you hear a voice over the speakers, it's anthony (that's me)",
+				"'hey super sorry about kidnapping you but uhhh I made these puzzles for you they're enjoyable to solve TRUSSST'",
+				"'in each stage you'll have to find a password and message it to me'",
+				"'damn my voice is a little HOARSE, so imma catch you guys later'"];
 
 class Textbox extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {text: prompts,
-					  max: 5,
+					  max: 9,
 					  index: 0
 					 };
 		
@@ -19,6 +23,7 @@ class Textbox extends Component {
 	}
 	
 	handleForward() {
+		console.log(this.state.index);
 		if (this.state.index < (this.state.max - 1)) {
 			this.setState({index: this.state.index + 1});
 		}
@@ -30,24 +35,44 @@ class Textbox extends Component {
 		}
 	}
 	
-	render() {
-		let pictures;
-		if (this.state.index >= 4) {
-			pictures = <div className="pictureHolder">
+	renderBackwardsButton() {
+		if (this.state.index == 0) {
+			return null;
+		}
+		return <button onClick={this.handleBackwards}>Previous</button>;
+	}
+	
+	renderForwardsButton() {
+		if (this.state.index >= this.state.max - 1) {
+			return null;
+		}
+		return <button onClick={this.handleForward}>Next</button>;
+	}
+	
+	renderContent() {
+		if (this.state.index >= this.state.max - 1) {
+			return <div className="content">
 					     <img id="horse" src={require('./horse.jpg').default} />
 					     <img id="roshan" src={require('./thepasswordisalbatross.jpg').default} />
 						 <img id="chowder" src={require('./chowder.jpg').default} />
 					   </div>;
-		} else {
-			pictures = null;
 		}
+		return null;
+	}
+	
+	render() {
+		let content = this.renderContent();
+		let forwardButton = this.renderForwardsButton();
+		let backwardsButton = this.renderBackwardsButton();
 		
 		return (
 			<div>
 				<div id="textDisplay"> {this.state.text[this.state.index]} </div>
-				<button onClick={this.handleBackwards}>Backwards</button>
-				<button onClick={this.handleForward}>Forward</button>
-				{pictures}
+				<div>
+					{backwardsButton}
+					{forwardButton}
+				</div>
+				{content}
 			</div>
 		)
 	}
